@@ -1,0 +1,23 @@
+/**
+ * @file
+ * Styling for the ds-2col-stacked template.
+ */
+
+.slu-2col-stacked > .group-header {
+}
+
+.slu-2col-stacked > .group-left {
+  float: left; /* LTR */
+  width: 60%;
+}
+
+.slu-2col-stacked > .group-right {
+  float: right; /* LTR */
+  width: 38%;
+  padding-left: 1%;
+  border-left: 1px solid rgb(204, 204, 204);
+}
+
+.slu-2col-stacked > .group-footer {
+  clear: both;
+}
